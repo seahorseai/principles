@@ -1,4 +1,4 @@
-import { AreaCalculator } from "./classes/AreaCalculator";
+import { AreaCalculator } from "./classes/AreaCalculator.class";
 import { Circle } from "./classes/Circle.class";
 import { Square } from "./classes/Square.class";
 import { Shape } from "./interfaces/shape.interface";

@@ -10,7 +10,7 @@ export class AreaCalculator {
         for (const shape of this.shapes) {
             totalArea += shape.area();
         }
-        console.log("La suma de las áreas es:", totalArea);
+        console.log("The sum of the areas is:", totalArea);
         return totalArea;
     }
 }
