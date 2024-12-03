@@ -1,5 +1,5 @@
 import { ShapeInterface } from "../Interfaces/shape.interface";
-import { ThreeDimensionalShapeInterface } from "../Interfaces/ThreeDimnesionalShape.interface";
+import { ThreeDimensionalShapeInterface } from "../Interfaces/ThreeDimensionalShape.interface";
 import { CalculateInterface } from "../Interfaces/Calculate.interface";
 
 export class Cuboid implements ShapeInterface, ThreeDimensionalShapeInterface, CalculateInterface {

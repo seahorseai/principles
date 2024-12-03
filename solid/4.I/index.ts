@@ -2,11 +2,11 @@ import { Square } from "./classes/square.class";
 import { Cuboid } from "./classes/cuboid.class";
 
 const square = new Square(5);
-console.log("Área del cuadrado:", square.area());
-console.log("Resultado del cálculo del cuadrado:", square.calculate()); 
+console.log("Area of the square:", square.area());
+console.log("Result of the calculation of the square:", square.calculate()); //Resultado del cálculo del cuadrado:", square.calculate()); 
 
 
 const cuboid = new Cuboid(3, 4, 5);
-console.log("Área del cuboide:", cuboid.area()); 
-console.log("Volumen del cuboide:", cuboid.volume()); 
-console.log("Resultado del cálculo del cuboide:", cuboid.calculate()); 
+console.log("Area of the cuboid:", cuboid.area()); 
+console.log("Volume of the cuboid:", cuboid.volume()); 
+console.log("Result of the calculation of the cuboid:", cuboid.calculate()); 
